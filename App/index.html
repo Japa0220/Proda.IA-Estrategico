@@ -6,22 +6,43 @@
     <title>Proda.IA Estrategico</title>
     <style>
         body {
-            background-color: rgb(158, 209, 253);
-            margin: center;
+            background-color: aliceblue;
             padding: 20px;
             height: 250px;
         }
-        Prodam_logo.jpg {
-            width: 20%;
-            margin: left;
-            height: 10px;
+        
+        #header {
+            text-align: center;
+            margin: 0px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .prodamlogo {
+            width: 100px;
+            height: 50px;
+            overflow: hidden;
             border: 2px solid #000;
             border-radius: 10px;
             box-shadow: 5px 5px 15px rgba(255, 255, 255);
+            background-color: white;
+
+        }
+        
+        .prodamlogo img {
+            height: 100px;
+            margin: center;
+            margin-top: -25px;
+
         }
     </style>
 </head>
 <body>
-   <img src = "Prodam_logo.jpg" alt="Imagem offline" class="Prodam_logo.jpg">
+    <div id="header">
+    <div id="logo" class="bg prodamlogo ">
+        <img src="Prodam_logo.jpg" alt="Imagem offline" class="Prodam_logo.jpg">
+    </div>
+</div>
 </body>
 </html>
